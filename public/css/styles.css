@@ -1,0 +1,290 @@
+/* .......NAVBAR........*/
+
+.header {
+	background-color: #a8d8ea;
+}
+#title {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+}
+
+.nav-component{
+	color: #ffffff;
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+.nav-component:hover {
+	color: grey;
+}
+
+/*-----------------------------DIARY FIRST PAGE----------------------------------------*/
+
+.index-table{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 35px;
+	
+}
+.index-table h2{
+      color: palevioletred;
+	  font-size: 60px;
+	  font-family: 'Abril Fatface', cursive;
+}
+.index-table ul{
+	list-style-type: none;
+	padding-left: inherit;
+}
+.index-table li {
+	/*text-align: left;*/
+	margin-bottom: 15px;
+	
+}
+.index-table a{
+
+	color: darkseagreen;
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+	
+	
+}
+.index-table a:hover{
+
+	color: #fcbad3;
+	text-decoration: none;
+	
+}
+#new-entry {
+	/*font-family: 'Abril Fatface', cursive;*/
+	color: palevioletred;;
+}
+#new-entry:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+
+/* ----------------------- COMPOSE PAGE------------------------------ */
+
+.form {
+	width: 70%;
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+.form label{
+	font-family: 'Abril Fatface', cursive;
+	color: #6155a6;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.form-btn {
+  
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #aa96da;
+  padding: 8px 11px 8px 11px;
+  text-decoration: none;
+  border-color: #aa96da;
+}
+
+.form-btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  border-color: #3cb0fd;
+}
+/*---------------------------- LOGIN --------------------------------*/
+.login {
+	width: 40%;
+	margin: auto;
+	background: url("/images/bg1.png");
+    margin-top: 70px;
+	padding: 40px 0;
+	margin-bottom: 70px;
+    
+}
+.login h1{
+	text-align: center;
+	color: #6155a6;
+	  font-weight: bold;
+	  font-size: 60px;
+	  font-family: 'Abril Fatface', cursive;
+}
+.login input[type=email], input[type=password] {
+  width: 64%;
+  padding: 8px 10px;
+  margin-left: 18%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+.login label {
+	 margin-left: 18%;
+     color: white;
+	 font-weight: bold;
+     font-size: 25px;	 
+}
+.login button {
+  background-color:#6155a6;
+  color: white;
+  
+  border: none;
+  cursor: pointer;
+  width: 64%;
+  padding: 8px 12px;
+  margin: 15px 18%;
+  font-size: 25px;
+}
+
+.login button:hover {
+  background-color: darkturquoise;
+}
+/*------------------------------ PAGE --------------------------------*/
+.page{
+      margin: 5% 20%;
+    background: linear-gradient(45deg, #fcbad3, transparent);
+    padding: 30px;
+    border-radius: 28px;
+}
+.page h2{
+	color: mediumvioletred;
+    font-size: 40px;
+    font-style: italic;
+}
+.page p{
+	color: darkcyan;
+    font-size: 23px;
+    font-weight: bold;
+}
+/* ---------------------------- HOME PAGE ----------------------------*/
+body{
+	background-image: url("/images/bg2.png");
+}
+.top-content {
+	text-align: center;
+	padding: 60px;
+}
+
+#home-title {
+	color: #fcbad3;
+	font-size: 90px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #a8d8ea;
+  padding: 8px 28px 8px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.btn:hover {
+  background: grey;
+  text-decoration: none;
+}
+.top p{
+	color: #aa96da;
+	font-size: 20px;
+}
+
+.top h3 {
+	margin-top: 30px;
+	font-size: 30px;
+	color: #aa96da;
+	font-family: 'Lobster', cursive;
+}
+.footer {
+	/*position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: aliceblue;
+	background-color: lightblue;*/
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: grey;
+	
+}
+.footer p{
+	/*margin-top: 2px;
+	margin-bottom: 5px;*/
+	margin-bottom: 0;
+}
+.fab{
+	margin-right: 10px;
+}
+.home-footer i:hover {
+	color: black;
+}
+
+.home-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: grey;
+}
+.home-footer p{
+	margin-bottom: 0;
+}
+
+
+/*#title {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Potta One', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.nav-component {
+	color: white;
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+.top{
+	background-color: #aa96da;
+}
+
+
+
+
+
+
+
+
+.properties {
+	background-color: #aa96da;
+	padding: 30px;
+	color: #a8d8ea;
+	text-align: center;
+}
+
+.footer {
+	background-color: #aa96da;
+	text-align: center;
+}*/
